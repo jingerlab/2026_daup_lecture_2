@@ -115,17 +115,11 @@ code, pre {
   font-family: 'Century Gothic', sans-serif;
 }
 
-/* Zero out the sidebar drawer completely so it can never force-render */
-.slidev-drawer, 
-#slidev-drawer,
-.slidev-side-nav,
-.nav-drawer,
-div[class*="drawer"] {
+/* Eradicate the persistent Go-To navigation dialog completely */
+#slidev-goto-dialog,
+.slidev-goto-dialog {
   display: none !important;
   visibility: hidden !important;
   opacity: 0 !important;
-  width: 0px !important;
-  max-width: 0px !important;
-  transform: translateX(100%) !important;
   pointer-events: none !important;
 }
