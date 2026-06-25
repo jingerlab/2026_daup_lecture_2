@@ -11,8 +11,9 @@ transition: slide-up | slide-down
 favicon: "/favicon-dark.png"
 mdc: true
 comark: true
-navigation: false
-selectable: false
+routerMode: hash
+contextMenu: false
+selectable: falsecontexttttttt
 presenter: false
 duration: 120 mins
 addons:
