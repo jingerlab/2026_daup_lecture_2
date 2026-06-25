@@ -115,11 +115,3 @@ code, pre {
   font-family: 'Century Gothic', sans-serif;
 }
 
-/* Eradicate the persistent Go-To navigation dialog completely */
-#slidev-goto-dialog,
-.slidev-goto-dialog {
-  display: none !important;
-  visibility: hidden !important;
-  opacity: 0 !important;
-  pointer-events: none !important;
-}
