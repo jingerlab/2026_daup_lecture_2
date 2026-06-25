@@ -114,3 +114,18 @@ h2,h3,h4,h5,h6 {
 code, pre {
   font-family: 'Century Gothic', sans-serif;
 }
+
+/* Zero out the sidebar drawer completely so it can never force-render */
+.slidev-drawer, 
+#slidev-drawer,
+.slidev-side-nav,
+.nav-drawer,
+div[class*="drawer"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  width: 0px !important;
+  max-width: 0px !important;
+  transform: translateX(100%) !important;
+  pointer-events: none !important;
+}
