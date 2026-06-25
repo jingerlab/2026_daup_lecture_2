@@ -13,8 +13,6 @@ mdc: true
 comark: true
 routerMode: hash
 contextMenu: false
-selectable: falsecontexttttttt
-presenter: false
 duration: 120 mins
 addons:
   - slidev-addon-python-runner
