@@ -22,6 +22,7 @@ python:
   alwaysReload: false
   suppressDeprecationWarnings: true
 id: 1
+toc: false
 ---
 <MathFrame v-if="$slidev.nav.currentPage === $frontmatter.id" color="#93c5fd" :starCount="800" :twinkleSpeed="0.005" :moonCycleSpeed="0.004" :moonSize="55" />
 
