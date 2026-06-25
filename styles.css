@@ -115,3 +115,11 @@ code, pre {
   font-family: 'Century Gothic', sans-serif;
 }
 
+#slidev-goto-dialog.-top-20 {
+  overflow: hidden;
+  height: 2.625rem;
+}
+
+#slidev-goto-dialog.-top-20 .autocomplete-list {
+  display: none;
+}
