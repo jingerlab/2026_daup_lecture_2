@@ -3,7 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build --base ./",
+    "build": "slidev build --base /2026_daup_lecture_2/",
     "dev": "slidev --open",
     "export": "slidev export"
   },
