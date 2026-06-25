@@ -3,12 +3,12 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build --base /2026_daup_lecture_2/,
+    "build": "slidev build --base /2026_daup_lecture_2/",
     "dev": "slidev --open",
     "export": "slidev export"
   },
   "dependencies": {
-    "@slidev/cli": "0.49.25",
+    "@slidev/cli": "^52.16.0",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "pnpm": "^11.9.0",
