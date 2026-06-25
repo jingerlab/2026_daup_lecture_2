@@ -24,6 +24,22 @@ python:
 id: 1
 toc: false
 ---
+<script setup>
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  // Check if this specific version session has been refreshed yet
+  const currentVersion = "v1.0.1" // Increment this minor number whenever you push massive updates
+  const lastRefreshedVersion = localStorage.getItem('slidev_version')
+
+  if (lastRefreshedVersion !== currentVersion) {
+    localStorage.setItem('slidev_version', currentVersion)
+    // Force an instant clear-cache reload of the browser tab
+    window.location.reload(true)
+  }
+})
+</script>
+
 <MathFrame v-if="$slidev.nav.currentPage === $frontmatter.id" color="#93c5fd" :starCount="800" :twinkleSpeed="0.005" :moonCycleSpeed="0.004" :moonSize="55" />
 
 
