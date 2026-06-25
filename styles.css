@@ -1,0 +1,116 @@
+/* style.css */
+
+/* ==========================================
+   1. DISPLAY FONT (Catchy Mager)
+   ========================================== */
+@font-face {
+  font-family: 'Catchy Mager';
+  src: url('/fonts/display/catchy-mager.regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ==========================================
+   2. SANS SERIF FONT (Century Gothic)
+   ========================================== */
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('/fonts/sans/CenturyGothic-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('/fonts/sans/CenturyGothic-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('/fonts/sans/CenturyGothic-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('/fonts/sans/CenturyGothic-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ==========================================
+   3. SERIF FONT (Alegreya)
+   ========================================== */
+@font-face {
+  font-family: 'Alegreya';
+  src: url('/fonts/serif/Alegreya-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Alegreya';
+  src: url('/fonts/serif/Alegreya-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Alegreya';
+  src: url('/fonts/serif/Alegreya-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Alegreya';
+  src: url('/fonts/serif/Alegreya-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ==========================================
+   4. LIGATURES & OPTIMIZATIONS
+   ========================================== */
+html, body, p, h1, h2, h3, h4, h5, h6, span, code, pre {
+  font-variant-ligatures: common-ligatures contextual discretionary-ligatures;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ==========================================
+   7. GLOBAL TYPOGRAPHY ASSIGNMENTS
+   ========================================== */
+
+/* H1 uses Display Font */
+h1 {
+  font-family: 'Catchy Mager', serif;
+}
+
+/* All other headings use Sans Serif */
+p {
+  font-family: 'Century Gothic', sans-serif;
+}
+
+/* Body paragraphs use Serif */
+h2,h3,h4,h5,h6 {
+  font-family: 'Alegreya', serif;
+}
+
+/* Code blocks and inline code use Sans Serif */
+code, pre {
+  font-family: 'Century Gothic', sans-serif;
+}
