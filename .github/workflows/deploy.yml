@@ -34,7 +34,7 @@ jobs:
         run: npm ci || npm install
 
       - name: Build Slidev Presentation
-        run: npx slidev build --base /2026_daup_lecture_2/
+        run: npx slidev build
 
       - name: Upload Build Artifacts
         uses: actions/upload-pages-artifact@v3
