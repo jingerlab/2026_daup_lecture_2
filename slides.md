@@ -11,8 +11,6 @@ transition: slide-up | slide-down
 favicon: "/favicon-dark.png"
 mdc: true
 comark: true
-routerMode: hash
-contextMenu: false
 duration: 120 mins
 addons:
   - slidev-addon-python-runner
